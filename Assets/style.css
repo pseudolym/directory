@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+:root {
+  --bgColor: #111111cc;
+  --accentColor: #eeeeeecc;
+  --font: 'Libre Caslon Text', serif;
+}
+
+html {
+  background-color: var(--bgColor);
+  background: url(./bg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#userPhoto {
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: 35px auto 20px;
+  border-radius: 50%;
+}
+
+#userName {
+  color: #ddddddab;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  line-height: 1.25;
+  display: block;
+  font-family: var(--font);
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#userName:hover {
+  text-decoration: underline 1.5px;
+}
+
+#links {
+  max-width: 675px;
+  width: auto;
+  display: block;
+  margin: 27px auto;
+}
+
+.link {
+  display: block;
+  background-color: var(--bgColor);
+  color: var(--accentColor);
+  font-family: var(--font);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 17px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+  border: solid var(--bgColor) 1px;
+}
+
+.link:hover {
+  background-color: var(--accentColor);
+  color: var(--bgColor);
+}
