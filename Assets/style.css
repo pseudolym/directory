@@ -12,6 +12,11 @@ html {
   background-size: cover;
 }
 
+body {
+  background: url(./bg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
 #userPhoto {
   width: 110px;
   height: 110px;
